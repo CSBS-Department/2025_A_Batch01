@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="donor.css">
+    <title>Donor Registration</title>
+</head>
+<body>
+    <div class="banner">
+        <video autoplay loop muted plays-inline>
+            <source src="video1.mp4" type="video/mp4">
+        </video>
+        <div class="navbar">
+            <img class="logo" src="logo.png">
+            <div class="logo-text">𝐁𝐋𝐎𝐎𝐃𝐁𝐎𝐍𝐃</div>
+            <ul>
+                <li><a href="index.html">𝐇𝐎𝐌𝐄</a></li>
+                <li><a href="aboutus.html">𝐀𝐁𝐎𝐔𝐓 𝐔𝐒</a></li>
+                <li><a href="contact.html">𝐂𝐎𝐍𝐓𝐀𝐂𝐓</a></li>
+                <li><a href="login.html">𝐋𝐎𝐆𝚰𝐍</a></li>
+            </ul>
+        </div>
+
+        <div class="center-box">
+          <div class="donor-form">
+        
+
+          <form onsubmit="submitDonorForm(event)">
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="𝐍𝐚𝐦𝐞" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" id="email" placeholder="𝐄𝐦𝐚𝐢𝐥" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" id="phone" placeholder="𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐧𝐨." required>
+                </div>
+
+                <div class="form-group">
+                    <input type="password" id="password" placeholder="𝐏𝐚𝐬𝐬𝐰𝐨𝐫𝐝" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="number" id="age" placeholder="𝐀𝐠𝐞" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" id="bloodGroup" placeholder="𝐁𝐥𝐨𝐨𝐝 𝐆𝐫𝐨𝐮𝐩" required>
+                </div>
+
+                <div class="form-group">
+                    <textarea id="address" placeholder="𝐀𝐝𝐝𝐫𝐞𝐬𝐬" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" id="district" placeholder="𝐃𝐢𝐬𝐭𝐫𝐢𝐜𝐭" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" id="state" placeholder="𝐒𝐭𝐚𝐭𝐞" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" id="country" placeholder="𝐂𝐨𝐮𝐧𝐭𝐫𝐲" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" id="pincode" placeholder="𝐏𝐢𝐧𝐜𝐨𝐝𝐞" required>
+                </div>
+                
+                
+              <!-- Move the checkbox to the left of the label -->
+              <div class="form-group confirmation">
+                <input type="checkbox" id="healthCondition" required>
+                <label for="healthCondition">I  𝐜𝐨𝐧𝐟𝐢𝐫𝐦 𝐭𝐡𝐚𝐭 I 𝐚𝐦 𝐢𝐧 𝐠𝐨𝐨𝐝 𝐡𝐞𝐚𝐥𝐭𝐡 𝐚𝐧𝐝 𝐦𝐞𝐞𝐭 𝐭𝐡𝐞 𝐞𝐥𝐢𝐠𝐢𝐛𝐢𝐥𝐢𝐭𝐲 𝐜𝐫𝐢𝐭𝐞𝐫𝐢𝐚 𝐟𝐨𝐫 𝐛𝐥𝐨𝐨𝐝 𝐝𝐨𝐧𝐚𝐭𝐢𝐨𝐧.</label>
+            </div>
+            
+
+
+                
+
+               
+                
+                
+                
+                
+            </div>
+
+            <button type="submit">𝐒𝐮𝐛𝐦𝐢𝐭</button>
+          </form>
+
+          <p id="message"></p>
+          <p class="login-text">🇮​🇫​ 🇾​🇴​🇺​'🇷​🇪​ 🇦​🇱​🇷​🇪​🇦​🇩​🇾​ 🇷​🇪​🇬​🇮​🇸​🇹​🇪​🇷​🇩​ 🇰​🇮​🇳​🇩​🇱​🇾​,​ <a href="login.html">ʟᴏɢɪɴ</a>.</p>
+          </div>
+        </div>
+    </div>
+
+<script src="donor-script.js"></script>
+</body>
+</html>
